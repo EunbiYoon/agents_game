@@ -1,0 +1,146 @@
+[
+  {
+    "level":"Level 0",
+    "opponent":"Always Defect",
+    "mean_return":5.3728244747,
+    "num_samples":150
+  },
+  {
+    "level":"Level 0",
+    "opponent":"Tit-for-Tat",
+    "mean_return":8.7845435173,
+    "num_samples":150
+  },
+  {
+    "level":"Level 0",
+    "opponent":"Grim Trigger",
+    "mean_return":8.4739404019,
+    "num_samples":150
+  },
+  {
+    "level":"Level 0",
+    "opponent":"Always Cooperate",
+    "mean_return":22.0781165769,
+    "num_samples":150
+  },
+  {
+    "level":"Level 0",
+    "opponent":"Alternating",
+    "mean_return":14.891586767,
+    "num_samples":150
+  },
+  {
+    "level":"Level 0",
+    "opponent":"OVERALL",
+    "mean_return":11.9202023476,
+    "num_samples":750
+  },
+  {
+    "level":"Level 1",
+    "opponent":"Always Defect",
+    "mean_return":5.4928244747,
+    "num_samples":150
+  },
+  {
+    "level":"Level 1",
+    "opponent":"Tit-for-Tat",
+    "mean_return":7.1719375448,
+    "num_samples":150
+  },
+  {
+    "level":"Level 1",
+    "opponent":"Grim Trigger",
+    "mean_return":6.0862922026,
+    "num_samples":150
+  },
+  {
+    "level":"Level 1",
+    "opponent":"Always Cooperate",
+    "mean_return":26.7082742869,
+    "num_samples":150
+  },
+  {
+    "level":"Level 1",
+    "opponent":"Alternating",
+    "mean_return":15.848220367,
+    "num_samples":150
+  },
+  {
+    "level":"Level 1",
+    "opponent":"OVERALL",
+    "mean_return":12.2615097752,
+    "num_samples":750
+  },
+  {
+    "level":"Level 2",
+    "opponent":"Always Defect",
+    "mean_return":5.4928244747,
+    "num_samples":150
+  },
+  {
+    "level":"Level 2",
+    "opponent":"Tit-for-Tat",
+    "mean_return":13.5358126344,
+    "num_samples":150
+  },
+  {
+    "level":"Level 2",
+    "opponent":"Grim Trigger",
+    "mean_return":8.4739404019,
+    "num_samples":150
+  },
+  {
+    "level":"Level 2",
+    "opponent":"Always Cooperate",
+    "mean_return":26.7082742869,
+    "num_samples":150
+  },
+  {
+    "level":"Level 2",
+    "opponent":"Alternating",
+    "mean_return":15.848220367,
+    "num_samples":150
+  },
+  {
+    "level":"Level 2",
+    "opponent":"OVERALL",
+    "mean_return":14.011814433,
+    "num_samples":750
+  },
+  {
+    "level":"Level 3",
+    "opponent":"Always Defect",
+    "mean_return":5.4928244747,
+    "num_samples":150
+  },
+  {
+    "level":"Level 3",
+    "opponent":"Tit-for-Tat",
+    "mean_return":13.5358126344,
+    "num_samples":150
+  },
+  {
+    "level":"Level 3",
+    "opponent":"Grim Trigger",
+    "mean_return":8.4739404019,
+    "num_samples":150
+  },
+  {
+    "level":"Level 3",
+    "opponent":"Always Cooperate",
+    "mean_return":26.7082742869,
+    "num_samples":150
+  },
+  {
+    "level":"Level 3",
+    "opponent":"Alternating",
+    "mean_return":15.848220367,
+    "num_samples":150
+  },
+  {
+    "level":"Level 3",
+    "opponent":"OVERALL",
+    "mean_return":14.011814433,
+    "num_samples":750
+  }
+]

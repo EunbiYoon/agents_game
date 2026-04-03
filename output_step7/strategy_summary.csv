@@ -1,0 +1,11 @@
+strategy,opponent,reward
+Explicit Opponent Simulation,Alternating,3.2133333333333334
+Explicit Opponent Simulation,Always Cooperate,5.0
+Explicit Opponent Simulation,Always Defect,1.0
+Explicit Opponent Simulation,Grim Trigger,1.88
+Explicit Opponent Simulation,Tit-for-Tat,3.2133333333333334
+Prompt-Based Opponent Reasoning,Alternating,3.2133333333333334
+Prompt-Based Opponent Reasoning,Always Cooperate,5.0
+Prompt-Based Opponent Reasoning,Always Defect,1.0
+Prompt-Based Opponent Reasoning,Grim Trigger,1.44
+Prompt-Based Opponent Reasoning,Tit-for-Tat,1.66

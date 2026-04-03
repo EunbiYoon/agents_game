@@ -1,0 +1,449 @@
+[
+  {
+    "sample_idx": 0,
+    "opponent": "Always Defect",
+    "history": [
+      [
+        "D",
+        "D"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "C",
+        "D"
+      ]
+    ],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "D",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 1,
+    "opponent": "Tit-for-Tat",
+    "history": [
+      [
+        "C",
+        "C"
+      ],
+      [
+        "D",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "C"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "C",
+        "D"
+      ]
+    ],
+    "prompt_based_action": "C",
+    "explicit_predicted_opponent_action": "C",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 2,
+    "opponent": "Grim Trigger",
+    "history": [
+      [
+        "D",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ]
+    ],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "D",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 3,
+    "opponent": "Grim Trigger",
+    "history": [
+      [
+        "D",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ]
+    ],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "D",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 4,
+    "opponent": "Always Cooperate",
+    "history": [
+      [
+        "C",
+        "C"
+      ],
+      [
+        "C",
+        "C"
+      ],
+      [
+        "D",
+        "C"
+      ],
+      [
+        "C",
+        "C"
+      ]
+    ],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "C",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 5,
+    "opponent": "Grim Trigger",
+    "history": [
+      [
+        "C",
+        "C"
+      ]
+    ],
+    "prompt_based_action": "C",
+    "explicit_predicted_opponent_action": "C",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 6,
+    "opponent": "Always Cooperate",
+    "history": [],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "C",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 7,
+    "opponent": "Alternating",
+    "history": [
+      [
+        "C",
+        "C"
+      ],
+      [
+        "D",
+        "D"
+      ]
+    ],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "C",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 8,
+    "opponent": "Always Defect",
+    "history": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "C",
+        "D"
+      ]
+    ],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "D",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 9,
+    "opponent": "Always Defect",
+    "history": [],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "D",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 10,
+    "opponent": "Alternating",
+    "history": [
+      [
+        "D",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "C",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "C"
+      ],
+      [
+        "D",
+        "D"
+      ]
+    ],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "C",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 11,
+    "opponent": "Tit-for-Tat",
+    "history": [
+      [
+        "D",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "C",
+        "C"
+      ],
+      [
+        "D",
+        "C"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ]
+    ],
+    "prompt_based_action": "C",
+    "explicit_predicted_opponent_action": "D",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 12,
+    "opponent": "Always Defect",
+    "history": [],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "D",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 13,
+    "opponent": "Always Cooperate",
+    "history": [
+      [
+        "D",
+        "C"
+      ],
+      [
+        "C",
+        "C"
+      ]
+    ],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "C",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 14,
+    "opponent": "Always Cooperate",
+    "history": [
+      [
+        "C",
+        "C"
+      ]
+    ],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "C",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 15,
+    "opponent": "Always Cooperate",
+    "history": [],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "C",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 16,
+    "opponent": "Always Cooperate",
+    "history": [
+      [
+        "D",
+        "C"
+      ],
+      [
+        "C",
+        "C"
+      ],
+      [
+        "D",
+        "C"
+      ],
+      [
+        "D",
+        "C"
+      ],
+      [
+        "C",
+        "C"
+      ],
+      [
+        "D",
+        "C"
+      ],
+      [
+        "D",
+        "C"
+      ],
+      [
+        "D",
+        "C"
+      ]
+    ],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "C",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 17,
+    "opponent": "Tit-for-Tat",
+    "history": [],
+    "prompt_based_action": "C",
+    "explicit_predicted_opponent_action": "C",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 18,
+    "opponent": "Grim Trigger",
+    "history": [
+      [
+        "D",
+        "C"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "D",
+        "D"
+      ]
+    ],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "D",
+    "explicit_action": "D"
+  },
+  {
+    "sample_idx": 19,
+    "opponent": "Alternating",
+    "history": [
+      [
+        "D",
+        "C"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "C",
+        "C"
+      ]
+    ],
+    "prompt_based_action": "D",
+    "explicit_predicted_opponent_action": "D",
+    "explicit_action": "D"
+  }
+]

@@ -1,0 +1,1501 @@
+sample_idx,opponent,strategy,chosen_action,predicted_opponent_action,actual_opponent_action,reward
+0,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+0,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+1,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+1,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+2,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+2,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+3,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+3,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+4,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+4,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+5,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+5,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+6,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+6,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+7,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+7,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+8,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+8,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+9,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+9,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+10,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+10,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+11,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+11,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+12,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+12,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+13,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+13,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+14,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+14,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+15,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+15,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+16,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+16,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+17,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+17,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+18,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+18,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+19,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+19,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+20,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+20,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+21,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+21,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+22,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+22,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+23,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+23,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+24,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+24,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+25,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+25,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+26,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+26,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+27,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+27,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+28,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+28,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+29,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+29,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+30,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+30,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+31,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+31,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+32,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+32,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+33,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+33,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+34,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+34,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+35,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+35,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+36,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+36,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+37,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+37,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+38,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+38,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+39,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+39,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+40,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+40,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+41,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+41,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+42,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+42,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+43,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+43,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+44,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+44,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+45,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+45,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+46,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+46,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+47,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+47,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+48,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+48,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+49,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+49,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+50,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+50,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+51,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+51,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+52,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+52,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+53,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+53,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+54,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+54,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+55,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+55,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+56,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+56,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+57,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+57,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+58,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+58,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+59,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+59,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+60,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+60,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+61,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+61,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+62,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+62,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+63,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+63,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+64,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+64,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+65,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+65,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+66,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+66,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+67,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+67,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+68,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+68,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+69,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+69,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+70,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+70,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+71,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+71,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+72,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+72,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+73,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+73,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+74,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+74,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+75,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+75,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+76,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+76,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+77,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+77,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+78,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+78,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+79,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+79,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+80,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+80,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+81,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+81,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+82,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+82,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+83,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+83,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+84,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+84,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+85,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+85,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+86,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+86,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+87,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+87,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+88,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+88,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+89,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+89,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+90,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+90,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+91,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+91,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+92,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+92,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+93,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+93,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+94,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+94,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+95,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+95,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+96,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+96,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+97,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+97,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+98,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+98,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+99,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+99,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+100,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+100,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+101,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+101,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+102,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+102,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+103,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+103,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+104,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+104,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+105,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+105,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+106,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+106,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+107,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+107,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+108,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+108,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+109,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+109,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+110,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+110,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+111,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+111,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+112,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+112,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+113,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+113,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+114,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+114,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+115,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+115,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+116,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+116,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+117,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+117,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+118,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+118,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+119,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+119,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+120,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+120,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+121,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+121,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+122,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+122,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+123,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+123,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+124,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+124,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+125,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+125,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+126,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+126,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+127,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+127,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+128,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+128,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+129,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+129,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+130,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+130,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+131,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+131,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+132,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+132,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+133,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+133,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+134,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+134,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+135,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+135,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+136,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+136,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+137,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+137,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+138,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+138,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+139,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+139,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+140,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+140,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+141,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+141,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+142,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+142,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+143,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+143,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+144,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+144,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+145,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+145,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+146,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+146,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+147,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+147,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+148,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+148,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+149,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+149,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+150,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+150,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+151,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+151,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+152,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+152,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+153,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+153,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+154,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+154,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+155,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+155,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+156,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+156,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+157,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+157,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+158,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+158,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+159,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+159,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+160,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+160,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+161,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+161,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+162,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+162,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+163,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+163,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+164,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+164,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+165,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+165,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+166,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+166,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+167,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+167,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+168,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+168,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+169,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+169,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+170,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+170,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+171,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+171,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+172,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+172,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+173,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+173,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+174,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+174,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+175,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+175,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+176,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+176,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+177,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+177,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+178,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+178,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+179,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+179,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+180,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+180,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+181,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+181,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+182,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+182,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+183,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+183,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+184,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+184,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+185,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+185,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+186,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+186,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+187,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+187,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+188,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+188,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+189,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+189,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+190,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+190,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+191,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+191,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+192,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+192,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+193,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+193,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+194,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+194,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+195,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+195,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+196,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+196,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+197,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+197,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+198,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+198,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+199,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+199,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+200,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+200,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+201,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+201,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+202,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+202,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+203,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+203,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+204,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+204,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+205,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+205,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+206,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+206,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+207,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+207,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+208,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+208,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+209,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+209,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+210,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+210,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+211,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+211,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+212,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+212,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+213,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+213,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+214,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+214,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+215,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+215,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+216,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+216,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+217,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+217,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+218,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+218,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+219,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+219,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+220,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+220,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+221,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+221,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+222,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+222,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+223,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+223,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+224,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+224,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+225,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+225,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+226,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+226,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+227,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+227,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+228,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+228,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+229,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+229,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+230,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+230,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+231,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+231,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+232,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+232,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+233,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+233,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+234,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+234,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+235,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+235,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+236,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+236,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+237,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+237,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+238,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+238,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+239,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+239,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+240,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+240,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+241,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+241,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+242,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+242,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+243,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+243,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+244,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+244,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+245,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+245,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+246,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+246,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+247,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+247,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+248,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+248,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+249,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+249,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+250,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+250,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+251,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+251,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+252,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+252,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+253,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+253,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+254,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+254,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+255,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+255,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+256,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+256,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+257,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+257,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+258,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+258,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+259,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+259,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+260,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+260,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+261,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+261,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+262,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+262,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+263,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+263,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+264,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+264,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+265,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+265,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+266,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+266,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+267,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+267,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+268,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+268,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+269,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+269,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+270,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+270,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+271,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+271,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+272,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+272,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+273,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+273,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+274,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+274,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+275,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+275,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+276,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+276,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+277,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+277,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+278,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+278,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+279,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+279,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+280,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+280,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+281,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+281,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+282,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+282,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+283,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+283,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+284,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+284,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+285,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+285,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+286,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+286,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+287,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+287,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+288,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+288,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+289,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+289,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+290,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+290,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+291,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+291,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+292,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+292,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+293,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+293,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+294,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+294,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+295,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+295,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+296,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+296,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+297,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+297,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+298,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+298,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+299,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+299,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+300,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+300,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+301,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+301,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+302,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+302,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+303,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+303,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+304,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+304,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+305,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+305,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+306,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+306,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+307,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+307,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+308,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+308,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+309,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+309,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+310,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+310,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+311,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+311,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+312,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+312,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+313,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+313,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+314,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+314,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+315,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+315,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+316,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+316,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+317,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+317,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+318,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+318,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+319,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+319,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+320,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+320,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+321,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+321,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+322,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+322,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+323,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+323,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+324,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+324,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+325,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+325,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+326,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+326,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+327,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+327,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+328,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+328,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+329,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+329,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+330,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+330,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+331,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+331,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+332,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+332,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+333,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+333,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+334,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+334,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+335,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+335,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+336,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+336,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+337,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+337,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+338,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+338,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+339,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+339,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+340,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+340,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+341,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+341,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+342,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+342,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+343,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+343,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+344,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+344,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+345,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+345,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+346,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+346,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+347,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+347,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+348,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+348,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+349,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+349,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+350,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+350,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+351,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+351,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+352,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+352,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+353,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+353,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+354,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+354,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+355,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+355,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+356,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+356,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+357,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+357,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+358,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+358,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+359,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+359,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+360,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+360,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+361,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+361,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+362,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+362,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+363,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+363,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+364,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+364,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+365,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+365,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+366,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+366,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+367,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+367,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+368,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+368,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+369,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+369,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+370,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+370,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+371,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+371,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+372,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+372,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+373,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+373,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+374,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+374,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+375,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+375,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+376,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+376,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+377,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+377,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+378,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+378,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+379,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+379,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+380,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+380,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+381,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+381,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+382,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+382,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+383,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+383,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+384,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+384,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+385,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+385,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+386,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+386,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+387,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+387,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+388,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+388,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+389,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+389,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+390,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+390,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+391,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+391,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+392,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+392,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+393,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+393,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+394,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+394,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+395,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+395,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+396,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+396,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+397,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+397,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+398,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+398,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+399,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+399,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+400,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+400,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+401,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+401,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+402,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+402,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+403,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+403,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+404,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+404,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+405,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+405,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+406,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+406,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+407,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+407,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+408,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+408,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+409,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+409,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+410,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+410,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+411,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+411,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+412,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+412,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+413,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+413,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+414,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+414,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+415,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+415,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+416,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+416,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+417,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+417,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+418,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+418,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+419,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+419,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+420,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+420,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+421,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+421,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+422,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+422,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+423,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+423,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+424,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+424,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+425,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+425,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+426,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+426,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+427,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+427,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+428,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+428,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+429,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+429,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+430,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+430,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+431,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+431,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+432,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+432,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+433,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+433,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+434,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+434,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+435,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+435,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+436,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+436,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+437,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+437,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+438,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+438,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+439,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+439,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+440,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+440,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+441,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+441,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+442,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+442,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+443,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+443,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+444,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+444,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+445,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+445,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+446,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+446,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+447,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+447,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+448,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+448,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+449,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+449,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+450,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+450,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+451,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+451,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+452,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+452,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+453,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+453,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+454,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+454,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+455,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+455,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+456,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+456,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+457,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+457,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+458,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+458,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+459,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+459,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+460,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+460,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+461,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+461,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+462,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+462,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+463,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+463,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+464,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+464,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+465,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+465,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+466,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+466,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+467,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+467,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+468,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+468,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+469,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+469,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+470,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+470,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+471,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+471,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+472,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+472,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+473,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+473,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+474,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+474,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+475,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+475,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+476,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+476,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+477,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+477,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+478,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+478,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+479,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+479,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+480,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+480,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+481,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+481,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+482,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+482,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+483,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+483,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+484,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+484,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+485,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+485,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+486,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+486,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+487,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+487,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+488,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+488,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+489,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+489,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+490,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+490,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+491,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+491,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+492,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+492,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+493,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+493,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+494,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+494,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+495,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+495,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+496,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+496,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+497,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+497,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+498,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+498,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+499,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+499,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+500,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+500,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+501,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+501,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+502,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+502,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+503,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+503,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+504,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+504,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+505,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+505,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+506,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+506,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+507,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+507,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+508,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+508,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+509,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+509,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+510,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+510,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+511,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+511,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+512,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+512,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+513,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+513,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+514,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+514,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+515,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+515,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+516,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+516,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+517,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+517,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+518,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+518,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+519,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+519,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+520,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+520,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+521,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+521,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+522,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+522,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+523,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+523,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+524,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+524,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+525,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+525,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+526,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+526,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+527,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+527,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+528,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+528,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+529,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+529,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+530,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+530,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+531,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+531,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+532,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+532,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+533,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+533,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+534,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+534,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+535,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+535,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+536,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+536,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+537,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+537,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+538,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+538,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+539,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+539,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+540,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+540,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+541,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+541,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+542,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+542,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+543,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+543,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+544,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+544,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+545,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+545,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+546,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+546,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+547,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+547,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+548,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+548,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+549,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+549,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+550,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+550,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+551,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+551,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+552,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+552,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+553,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+553,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+554,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+554,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+555,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+555,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+556,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+556,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+557,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+557,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+558,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+558,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+559,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+559,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+560,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+560,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+561,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+561,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+562,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+562,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+563,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+563,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+564,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+564,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+565,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+565,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+566,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+566,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+567,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+567,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+568,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+568,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+569,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+569,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+570,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+570,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+571,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+571,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+572,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+572,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+573,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+573,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+574,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+574,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+575,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+575,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+576,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+576,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+577,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+577,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+578,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+578,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+579,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+579,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+580,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+580,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+581,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+581,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+582,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+582,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+583,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+583,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+584,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+584,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+585,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+585,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+586,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+586,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+587,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+587,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+588,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+588,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+589,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+589,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+590,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+590,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+591,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+591,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+592,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+592,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+593,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+593,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+594,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+594,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+595,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+595,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+596,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+596,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+597,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+597,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+598,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+598,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+599,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+599,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+600,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+600,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+601,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+601,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+602,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+602,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+603,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+603,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+604,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+604,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+605,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+605,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+606,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+606,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+607,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+607,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+608,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+608,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+609,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+609,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+610,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+610,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+611,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+611,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+612,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+612,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+613,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+613,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+614,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+614,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+615,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+615,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+616,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+616,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+617,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+617,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+618,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+618,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+619,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+619,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+620,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+620,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+621,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+621,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+622,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+622,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+623,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+623,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+624,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+624,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+625,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+625,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+626,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+626,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+627,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+627,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+628,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+628,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+629,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+629,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+630,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+630,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+631,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+631,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+632,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+632,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+633,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+633,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+634,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+634,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+635,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+635,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+636,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+636,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+637,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+637,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+638,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+638,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+639,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+639,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+640,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+640,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+641,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+641,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+642,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+642,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+643,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+643,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+644,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+644,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+645,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+645,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+646,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+646,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+647,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+647,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+648,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+648,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+649,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+649,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+650,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+650,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+651,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+651,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+652,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+652,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+653,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+653,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+654,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+654,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+655,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+655,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+656,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+656,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+657,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+657,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+658,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+658,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+659,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+659,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+660,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+660,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+661,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+661,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+662,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+662,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+663,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+663,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+664,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+664,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+665,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+665,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+666,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+666,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+667,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+667,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+668,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+668,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+669,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+669,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+670,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+670,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+671,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+671,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+672,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+672,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+673,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+673,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+674,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+674,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+675,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+675,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+676,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+676,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+677,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+677,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+678,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+678,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+679,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+679,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+680,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+680,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+681,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+681,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+682,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+682,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+683,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+683,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+684,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+684,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+685,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+685,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+686,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+686,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+687,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+687,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+688,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+688,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+689,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+689,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+690,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+690,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+691,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+691,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+692,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+692,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+693,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+693,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+694,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+694,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+695,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+695,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+696,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+696,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+697,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+697,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+698,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+698,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+699,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+699,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+700,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+700,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+701,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+701,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+702,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+702,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+703,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+703,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+704,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+704,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+705,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+705,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+706,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+706,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+707,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+707,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+708,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+708,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+709,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+709,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+710,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+710,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+711,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+711,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+712,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+712,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+713,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+713,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+714,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+714,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+715,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+715,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+716,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+716,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+717,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+717,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+718,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+718,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+719,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+719,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+720,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+720,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+721,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+721,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+722,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+722,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+723,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+723,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+724,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+724,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+725,Alternating,Prompt-Based Opponent Reasoning,D,,D,1.0
+725,Alternating,Explicit Opponent Simulation,D,D,D,1.0
+726,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+726,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+727,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+727,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+728,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+728,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+729,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+729,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+730,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+730,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+731,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+731,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+732,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+732,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+733,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+733,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+734,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+734,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+735,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+735,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
+736,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+736,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+737,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+737,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+738,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+738,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+739,Grim Trigger,Prompt-Based Opponent Reasoning,C,,C,3.0
+739,Grim Trigger,Explicit Opponent Simulation,D,C,C,5.0
+740,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+740,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+741,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+741,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+742,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+742,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+743,Grim Trigger,Prompt-Based Opponent Reasoning,D,,D,1.0
+743,Grim Trigger,Explicit Opponent Simulation,D,D,D,1.0
+744,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+744,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+745,Alternating,Prompt-Based Opponent Reasoning,D,,C,5.0
+745,Alternating,Explicit Opponent Simulation,D,C,C,5.0
+746,Always Cooperate,Prompt-Based Opponent Reasoning,D,,C,5.0
+746,Always Cooperate,Explicit Opponent Simulation,D,C,C,5.0
+747,Always Defect,Prompt-Based Opponent Reasoning,D,,D,1.0
+747,Always Defect,Explicit Opponent Simulation,D,D,D,1.0
+748,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,C,3.0
+748,Tit-for-Tat,Explicit Opponent Simulation,D,C,C,5.0
+749,Tit-for-Tat,Prompt-Based Opponent Reasoning,C,,D,0.0
+749,Tit-for-Tat,Explicit Opponent Simulation,D,D,D,1.0
